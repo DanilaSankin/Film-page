@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(244, 244, 244) !important;
+}
+
+h4 {
+    margin-bottom: 13px !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 28px !important;
+}
+
+.grey-color {
+    color: rgba(0,0,0,.6) !important;
+}
+
+.container {
+    background-color: #fff;
+    margin-top: 40px;
+    overflow-x: none;
+}
+
+.img_main {
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.main_title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.main_subtitle {
+    color: rgba(0,0,0,.6);
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.film_trailer {
+    color:#000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.film_trailer:hover {
+    color:#f50;
+    transition: color 100ms ease-in-out;
+}
+
+.date_film {
+    color:#000;
+    opacity: 0.7;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.push_folder {
+    background-color: rgba(0,0,0,.05);
+    text-decoration: none;
+    color:#000;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-weight: 500;
+    margin-bottom: 90px;
+}
+
+.push_folder:hover {
+    transition: all 200ms ease-in-out;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.social span:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    transition: all 130ms ease-in;
+}
+
+.btn_ticket {
+    background: rgba(0,0,0,.05) !important;
+    width: 230px;
+    border-radius: 40px;
+    padding: 12px 18px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.btn_ticket span {
+    color:black !important;
+}
+
+.btn_ticket:hover {
+    background: linear-gradient(135deg,#f50 69.93%,#d6bb00) !important;
+    transition: all 250ms ease-in-out !important;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);  
+}
+
+.btn_ticket_text {
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.btn_ticket_text ion-icon {
+    padding-right: 5px;
+}
+
+.btn_triger {
+    background-color: rgba(0,0,0,.05);
+    width: 44px;
+    height: 44px;
+    display: flex;
+    position: relative;
+    /* margin-top: 15px; */
+    margin: 15px 10px 0 10px;
+    border-radius: 50%;
+}
+
+.btn_triger ion-icon {
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: #000;
+}
+
+.btn_triger:hover {
+    transition: all 270ms ease-in-out;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);  
+}
+
+.btn_triger:last-child {
+    margin-left: 0;
+}
+
+.btn-group {
+    margin-bottom: 40px;
+}
+
+.text-position {
+    margin-left: 8px;
+}
+
+.film_description_element {
+    display: grid;
+    grid-template-columns: 160px 422px;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.film_description_element span {
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0,0,0,.6);
+}
+
+.film_description_element a {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+    text-decoration: none;
+    transition: color 100ms ease-in;
+}
+
+.film_description_element a:hover {
+    color:#f50;
+}
+
+.pegi-18 {
+    border: 1px solid #000;
+    padding: 1px;
+    width: 28px;
+    color: #000 !important;
+}
+
+.rating {
+    font-size: 35px;
+    font-weight: 800;
+    opacity: 0.6;
+}
+
+.rating_assesments {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+.rate_film {
+    border: none;
+    width: 150px;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.rate_film:hover {
+    transition: all 250ms ease-in-out;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);  
+}
+
+.reviews {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.reviews:hover {
+    color:#f50;
+    transition: color 100ms ease-in-out;
+}
+
+.role a {
+    display: block;
+    text-decoration: none;
+}
+
+.inMain_role {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+    color:#000;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-inline-start: 2px;
+    margin-inline-end: -16px;
+}
+
+.inMain_role ion-icon {
+    font-size: 17px;
+}
+
+.role ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+.role li a {
+    color:#000 !important;
+    margin-bottom: 7px;
+    transition: all 100ms ease-in-out;
+}
+
+.role li a:hover {
+    color:#f50 !important;
+}
+
+/* .role ul a:last-child {
+    margin-bottom: 0;
+} */
+
+.moreItems_link {
+    margin: 0 0 20px 0;
+    color: #f50 !important;
+    cursor: pointer;
+}
